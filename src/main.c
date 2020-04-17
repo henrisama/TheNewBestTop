@@ -6,11 +6,11 @@
 #define MAX 15
 #define MAX_TOP 1024
 
-#include "getUser.h"
-#include "getState.h"
-#include "getPriority.h"
-#include "getCpuUsage.h"
-#include "getCommand.h"
+#include ".h/getUser.h"
+#include ".h/getState.h"
+#include ".h/getPriority.h"
+#include ".h/getCpuUsage.h"
+#include ".h/getCommand.h"
 
 typedef struct setTop{
   int pid;
